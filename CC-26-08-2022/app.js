@@ -34,9 +34,9 @@ function bouncingBall(h,  bounce,  window) {
             h = h*bounce
             res += 2
         }
-        console.log(res)
+        return res
     }
-  }
+}
 
 
   bouncingBall(3.0, 0.66, 1.5) 
